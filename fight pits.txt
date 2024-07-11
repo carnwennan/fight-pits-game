@@ -1,7 +1,7 @@
 ; FIGHT PITS
 
 CARDSIZE = 6.35, 8.89
-LINK = "fight pits corrections.ods"
+LINK = "fight pits data.ods"
 ZOOM = 98
 BORDER = NONE
 
