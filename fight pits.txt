@@ -1,0 +1,44 @@
+; FIGHT PITS
+
+CARDSIZE = 6.35, 8.89
+LINK = "fight pits corrections.ods"
+ZOOM = 98
+BORDER = NONE
+
+; SYMBOLS
+HTMLIMAGE=,M*,res\might.png,.35,.35,PT,0,.2
+HTMLIMAGE=,S*,res\speed.png,.35,.35,PT,0,.2
+HTMLIMAGE=,D*,res\defense.png,.35,.35,PT,0,.2
+HTMLIMAGE=,H*,res\health.png,.35,.35,PT,0,.2
+HTMLIMAGE=,A*,res\attack.png,.35,.5,PT,0,.25
+HTMLIMAGE=,T*,res\ticket.png,.35,.35,PT,0,.2
+HTMLIMAGE=,W*,res\weight.png,.4,.5,PT,0,.27
+HTMLIMAGE=,C*,res\coin.png,.35,.4,PT,0,.2
+
+; Main Text
+HTMLFONT=MainFont,"Segoe Print",10,RBO,#000000,CENTER,0,0,0,,#000000,0.0005
+HTMLMARGINS=MainFont,0,.1,.1,0,CENTER
+;Title Text
+if=[OVERRIDE]<>
+    HTMLFONT=TitleFont,"Segoe Print",{OVERRIDE?},BWO,#000000,CENTER,0,0,0,,#000000,0.001
+else
+    HTMLFONT=TitleFont,"Segoe Print",12,BWO,#000000,CENTER,0,0,0,,#000000,0.001
+endif
+
+VISUAL=, 10, 10
+IMAGE="1-{(TYPE)}",[TYPE],0%,0%,100%,100%,0
+HTMLTEXT="1-{(TEXT)}",[TEXT],{500/51}%,56.6%,{9900/119}%,36%,#FFFFFF,0,ETF,100,MainFont
+TEXTFONT="1-{(COST)}",[COST],{-400/357}%,47.8%,{5000/357}%,9.4%,CENTER,CENTER,0,100,Cocogoose Pro,28,T,#231F20
+ENDVISUAL
+
+; Align name differently for traits vs. equipment and moves
+; It needs to be this way because of quick and slow moves
+if=[TYPE]="res\trait.png"
+    HTMLTEXT="1-{(NAME)}",[NAME],{500/51}%,2.8%,{10000/119}%,7.6%,#FFFFFF,0,TE,100,TitleFont
+else
+    if=[TYPE]="res\equipment.png"
+        HTMLTEXT="1-{(NAME)}",[NAME],{1100/119}%,1.8%,{10000/119}%,7.4%,#FFFFFF,0,TE,100,TitleFont
+    else
+        HTMLTEXT=1-{(NAME)},[NAME],{1100/119}%,1.8%,{10000/119}%,7.4%,#FFFFFF,0,TE,100,TitleFont
+    endif
+endif
