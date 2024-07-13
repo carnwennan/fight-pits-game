@@ -1,19 +1,19 @@
 ; FIGHT PITS
 
 CARDSIZE = 6.35, 8.89
-LINK = "fight pits data.ods"
+LINK = "fight pits data.csv"
 ZOOM = 98
 BORDER = NONE
 
 ; SYMBOLS
-HTMLIMAGE=,M*,res\might.png,.35,.35,PT,0,.2
-HTMLIMAGE=,S*,res\speed.png,.35,.35,PT,0,.2
-HTMLIMAGE=,D*,res\defense.png,.35,.35,PT,0,.2
-HTMLIMAGE=,H*,res\health.png,.35,.35,PT,0,.2
-HTMLIMAGE=,A*,res\attack.png,.35,.5,PT,0,.25
-HTMLIMAGE=,T*,res\ticket.png,.35,.35,PT,0,.2
-HTMLIMAGE=,W*,res\weight.png,.4,.5,PT,0,.27
-HTMLIMAGE=,C*,res\coin.png,.35,.4,PT,0,.2
+HTMLIMAGE=,{M},res\might.png,.35,.35,PT,0,.2
+HTMLIMAGE=,{S},res\speed.png,.35,.35,PT,0,.2
+HTMLIMAGE=,{D},res\defense.png,.35,.35,PT,0,.2
+HTMLIMAGE=,{H},res\health.png,.35,.35,PT,0,.2
+HTMLIMAGE=,{A},res\attack.png,.35,.5,PT,0,.25
+HTMLIMAGE=,{T},res\ticket.png,.35,.35,PT,0,.2
+HTMLIMAGE=,{W},res\weight.png,.4,.5,PT,0,.27
+HTMLIMAGE=,{C},res\coin.png,.35,.4,PT,0,.2
 
 ; Main Text
 HTMLFONT=MainFont,"Segoe Print",10,RBO,#000000,CENTER,0,0,0,,#000000,0.0005
