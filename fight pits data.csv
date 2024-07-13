@@ -12,7 +12,7 @@ Blayzee’s Staff,res\equipment.png,1,Your swing gets +{A}1 for each face up Bla
 Blayzee’s Technique,res\move.png,,{A}2,11
 Bodyslam,res\move.png,,{A} equal to your {W},
 Bottle-Demon,res\equipment.png,1,"Acquire → set your {D} to 1 <br> End of rest → if your {D} is 1, +{M}",
-Bully,res\slow-move.png,,Your opponent loses all *T <br> but -{S},
+Bully,res\slow-move.png,,Your opponent loses all {T} <br> but -{S},
 Ceremonial Arms,res\equipment.png,1,Your swing gets +1{A} for each equipment you have,
 Chain Technique,res\move.png,,Refresh all your moves. You may play another move,
 Copycat,res\trait.png,,"Acquire → copy the {M}, {S}, and {D} of your next opponent",
