@@ -84,4 +84,4 @@ Vigilant,res\trait.png,,"Your opponent in your fights can't get {D}, {S}, or<br>
 Way of Lead,res\trait.png,,Play a slow move → +{H}{H},
 Wind Up,res\slow-move.png,,"Acquire → +{T} <br> {A} equal to your {T}. If this wins the fight, +{T}",
 Yellow Peril Ring,res\equipment.png,1,{H} drops below 4 → +{S} </br> End of fight → -{S},
-Sheer Will Power,res\trait.png,,If you would die, you may -{D} to +{H},
+Sheer Will Power,res\trait.png,,If you would die, you may -{D} to stay alive with 1{H},
