@@ -70,7 +70,7 @@ Spare Supplies,res\equipment.png,1,Acquire → +{T}{T} <br> Lose a fight → you
 Spiteful,res\trait.png,,"Acquire → -{D} <br> If you would die, {A}1 first",
 Spur,res\slow-move.png,,+{S}{S}{M} </br> End of fight → -{S}{S}{M},
 Squawk,res\slow-move.png,,{A}1. Your opponent can't swing during their next turn,
-Star Technique ,res\move.png,,"If you’ve acquired a card this turn, {A}3",
+Star Technique,res\move.png,,"If you’ve acquired a card this turn, {A}3",
 Strangle,res\move.png,,Your opponent can't play moves this fight,
 Sturdy,res\trait.png,,"Once per fight, if you have more than 1{H} and lose the fight, you stay in the fight with 1{H}",
 Surge Potion,res\equipment.png,1,"Acquire → +{S}{D}{T}, and at the start of your next fight, you go first and {A}1",
@@ -84,3 +84,4 @@ Vigilant,res\trait.png,,"Your opponent in your fights can't get {D}, {S}, or<br>
 Way of Lead,res\trait.png,,Play a slow move → +{H}{H},
 Wind Up,res\slow-move.png,,"Acquire → +{T} <br> {A} equal to your {T}. If this wins the fight, +{T}",
 Yellow Peril Ring,res\equipment.png,1,{H} drops below 4 → +{S} </br> End of fight → -{S},
+Sheer Will Power,res\trait.png,,If you would die, you may -{D} to +{H},
