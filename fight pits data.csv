@@ -1,46 +1,51 @@
 Name,Type,Cost,Text,Override,Name Style
+Ankh,res\equipment.png,1,Saves your life once per fight,,{text-transform:uppercase}
 Aspect of Blayzee,res\move.png,,Acquire → +S^. You may acquire any other Blayzee card in play,,{text-transform:uppercase}
 Bell Technique,res\move.png,,"If you have an even number of face up cards, A^3",,{text-transform:uppercase}
 Bird God’s Beak,res\equipment.png,2,"End of rest → if your S^ is higher than your next opponent’s S^, +M^",,{text-transform:uppercase}
 Bird Technique,res\move.png,,A^ equal to the number of moves you have,,{text-transform:uppercase}
-Blayzee’s Boots,res\equipment.png,2,"Acquire → +S^S^S^<br>If your opponent has the advantage, you take it instead",,{text-transform:uppercase}
+Blayzee’s Boots,res\equipment.png,2,Acquire → +S^S^S^<br>You always take the advantage,,{text-transform:uppercase}
 Blayzee’s Eye,res\equipment.png,1,"Acquire → +S^D^, and you go first next fight",,{text-transform:uppercase}
 Blayzee’s Staff,res\equipment.png,1,Your swing gets +1A^ for each face up Blayzee card you have,11,{text-transform:uppercase}
 Blayzee’s Technique,res\move.png,,A^2,11,{text-transform:uppercase}
-Broken Bell Strike,res\move.png,,"A^3, but -D^ if you have an odd number of face up cards",11,{text-transform:uppercase}
 Ceremonial Arms,res\equipment.png,1,Your swing gets +1A^ for each equipment you have,,{text-transform:uppercase}
-Chain Technique,res\move.png,,Refresh all your moves. You may play another move,,{text-transform:uppercase}
-Confident Stare,res\trait.png,,Start of fight → +3H^ to you and your opponent,,{text-transform:uppercase}
 Copycat,res\trait.png,,"Acquire → permanently copy the M^, S^, and D^ of your next opponent",,{text-transform:uppercase}
 Delayed Explosive,res\slow-move.png,,"If this isn’t your first turn, A^4",,{text-transform:uppercase}
-Disquieting Stare,res\trait.png,,"Start of fight → you and your opponent lose half your H^, rounded down",,{text-transform:uppercase}
 Dodge Roll,res\move.png,,"If your S^ is higher than your opponent’s S^, they can’t swing during their next turn",,{text-transform:uppercase}
-Dodgy Surgery,res\slow-move.png,,Lose H^ equal to your S^<br>+D^,,{text-transform:uppercase}
+Dodgy Surgery,res\slow-move.png,,"+D^, but lose H^ equal to your M^",,{text-transform:uppercase}
+Environment: Aplomb,res\trait.png,,Start of fight → +3H^ to you and your opponent,10,{text-transform:uppercase}
+Environment: Disquiet,res\trait.png,,"You and your opponent start your fights with half H^, rounded up",10,{text-transform:uppercase}
+Environment: Razors,res\trait.png,,Players can’t gain H^ and lives can’t be saved in your fights,10,{text-transform:uppercase}
+Environment: Vitality,res\trait.png,,Saves your life and your opponent’s life each once per fight,10,{text-transform:uppercase}
 Execute,res\move.png,,A^2 for each other move you’ve played this fight,,{text-transform:uppercase}
-Find An Opening,res\move.png,,"A^1<br>This fight, you may still swing when you play slow moves",,{text-transform:uppercase}
+Find An Opening,res\move.png,,A^1<br>You may play a slow move right after this,,{text-transform:uppercase}
 Fireball,res\move.png,,"For the rest of the fight, your opponent -H^ at the start of their turn",,{text-transform:uppercase}
-Gear Fiend,res\trait.png,,You can hold +2W^,,{text-transform:uppercase}
+Gear Fiend,res\trait.png,,You can hold +3W^,,{text-transform:uppercase}
 Glacial Presence,res\trait.png,,"+H^H^H^, but your and your opponent -S^",,{text-transform:uppercase}
 Godly Presence,res\move.png,,"Your opponent chooses to   +M^, +D^, or +S^S^. You do the same for each Presence card you have",,{text-transform:uppercase}
 Holy Bell,res\equipment.png,2,"End of rest → if you have an even number of face up cards, +D^",,{text-transform:uppercase}
+Lance Through,res\slow-move.png,,A^3<br>Your opponent’s life can’t be saved this fight,,{text-transform:uppercase}
 Lead Elixir,res\equipment.png,1,Acquire → +D^<br>All moves in your fights have slow,,{text-transform:uppercase}
 Lead Technique,res\move.png,,"If your S^ is lower than your opponent’s S^, A^3",,{text-transform:uppercase}
-Master Technique,res\move.png,,A^ equal to the number of Technique cards you have,11,{text-transform:uppercase}
+Master Technique,res\move.png,,A^ equal to the number of Technique cards you have plus one,11,{text-transform:uppercase}
 Noxious Presence,res\move.png,,"+D^, but you and your opponent -S^",11,{text-transform:uppercase}
 Orange Peril Ring,res\equipment.png,1,"If your H^ is at least 3 less than your D^, your swings get +2A^",,{text-transform:uppercase}
 Pacifist,res\trait.png,,"Acquire → +D^D^D^, but   -S^S^",,{text-transform:uppercase}
-Quick as Silver,res\trait.png,,Train → +S^,,{text-transform:uppercase}
+Secret Word,res\slow-move.png,,"+H^H^<br>The next time you would die this fight, your life is saved",,{text-transform:uppercase}
+Silver-Quick,res\trait.png,,Acquire → +S^<br>Train → +S^,,{text-transform:uppercase}
 Sinister Presence,res\move.png,,"+S^S^, but you and your opponent -D^",,{text-transform:uppercase}
 Slam Technique,res\move.png,,A^ equal to your carried W^,,{text-transform:uppercase}
 Smoke Bomb,res\move.png,,-H^H^<br>Your opponent can't swing during their next turn,,{text-transform:uppercase}
 Soul Collector,res\trait.png,,Your soul lamps weigh 0W^<br>Start of fight → +H^ for each Soul Lamp you have,,{text-transform:uppercase}
-Soul Lamp: Knight,res\equipment.png,2,Lose a fight → +D^,11,{text-transform:uppercase}
-Soul Lamp: Thief,res\equipment.png,1,Lose a fight → +S^,,{text-transform:uppercase}
-Spiteful,res\trait.png,,"Acquire → -D^<br>If you would die, A^1 first",,{text-transform:uppercase}
+Soul Lamp: Knight,res\equipment.png,2,Acquire → +D^<br>Lose a fight → +D^,11,{text-transform:uppercase}
+Soul Lamp: Thief,res\equipment.png,1,Acquire → +S^<br>Lose a fight → +S^,,{text-transform:uppercase}
+Spiteful,res\trait.png,,"Acquire → -D^<br>Just before you die, A^1 first",,{text-transform:uppercase}
 Squawk,res\slow-move.png,,A^1. Your opponent can’t swing during their next turn,,{text-transform:uppercase}
 Star Technique,res\move.png,,"If you didn’t train this turn, A^3",,{text-transform:uppercase}
 Strangle,res\move.png,,Your opponent can’t play moves this fight,,{text-transform:uppercase}
-Sturdy,res\trait.png,,"If you have more than 1H^ and die, you stay alive with 1H^ instead",,{text-transform:uppercase}
+Sturdy,res\trait.png,,Acquire → -S^S^<br>Saves your life once per fight,,{text-transform:uppercase}
 Surge Potion,res\equipment.png,1,"Acquire → +S^D^. At the start of your next fight, you go first and A^1",,{text-transform:uppercase}
-True Bell,res\trait.png,,"End of rest → if you have an even number of both face up and face down cards, +M^D^S^",,{text-transform:uppercase}
-Way of Lead,res\trait.png,,Play a slow move → +H^H^,,{text-transform:uppercase}
+True Bell,res\equipment.png,1,"End of rest → if you have an even number of both face up and face down cards, +M^D^S^",,{text-transform:uppercase}
+Turtle Up,res\slow-move.png,,+H^H^H^H^H^,,{text-transform:uppercase}
+Vampire,res\trait.png,,Swing → +H^,,{text-transform:uppercase}
+Way of Lead,res\trait.png,,Acquire → acquire one of your face-down slow moves<br>Play a slow move → +H^H^,,{text-transform:uppercase}

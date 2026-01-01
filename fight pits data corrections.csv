@@ -1,0 +1,22 @@
+Name,Type,Cost,Text,Override,Name Style
+Ankh,res\equipment.png,1,Saves your life once per fight,,{text-transform:uppercase}
+Blayzee’s Boots,res\equipment.png,2,Acquire → +S^S^S^<br>You always take the advantage,,{text-transform:uppercase}
+Dodgy Surgery,res\slow-move.png,,"+D^, but lose H^ equal to your M^",,{text-transform:uppercase}
+Environment: Aplomb,res\trait.png,,Start of fight → +3H^ to you and your opponent,10,{text-transform:uppercase}
+Environment: Disquiet,res\trait.png,,"You and your opponent start your fights with half H^, rounded up",10,{text-transform:uppercase}
+Environment: Razors,res\trait.png,,Players can’t gain H^ and lives can’t be saved in your fights,10,{text-transform:uppercase}
+Environment: Vitality,res\trait.png,,Saves your life and your opponent’s life each once per fight,10,{text-transform:uppercase}
+Find An Opening,res\move.png,,A^1<br>You may play a slow move right after this,,{text-transform:uppercase}
+Gear Fiend,res\trait.png,,You can hold +3W^,,{text-transform:uppercase}
+Lance Through,res\slow-move.png,,A^3<br>Your opponent’s life can’t be saved this fight,,{text-transform:uppercase}
+Master Technique,res\move.png,,A^ equal to the number of Technique cards you have plus one,11,{text-transform:uppercase}
+Secret Word,res\slow-move.png,,"+H^H^<br>The next time you would die this fight, your life is saved",,{text-transform:uppercase}
+Silver-Quick,res\trait.png,,Acquire → +S^<br>Train → +S^,,{text-transform:uppercase}
+Soul Lamp: Knight,res\equipment.png,2,Acquire → +D^<br>Lose a fight → +D^,11,{text-transform:uppercase}
+Soul Lamp: Thief,res\equipment.png,1,Acquire → +S^<br>Lose a fight → +S^,,{text-transform:uppercase}
+Spiteful,res\trait.png,,"Acquire → -D^<br>Just before you die, A^1 first",,{text-transform:uppercase}
+Sturdy,res\trait.png,,Acquire → -S^S^<br>Saves your life once per fight,,{text-transform:uppercase}
+True Bell,res\equipment.png,1,"End of rest → if you have an even number of both face up and face down cards, +M^D^S^",,{text-transform:uppercase}
+Turtle Up,res\slow-move.png,,+H^H^H^H^H^,,{text-transform:uppercase}
+Vampire,res\trait.png,,Swing → +H^,,{text-transform:uppercase}
+Way of Lead,res\trait.png,,Acquire → acquire one of your face-down slow moves<br>Play a slow move → +H^H^,,{text-transform:uppercase}

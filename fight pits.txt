@@ -2,7 +2,7 @@
 
 CARDSIZE = 6.35, 8.89
 LINKCSV = utf8
-LINK = "fight pits data.csv"
+LINK = "fight pits data corrections.csv"
 ZOOM = 98
 BORDER = NONE
 
@@ -20,6 +20,7 @@ HTMLIMAGE=,C^,res\coin.png,.35,.4,PT,0,.2
 HTMLMARGINS=MainFont,0,0.2,0.2,0,CENTER
 HTMLFONT=MainFont,"Segoe Print",10,RBO,#000000,CENTER,0,0,0,,#000000,0.0005
 ;Title Text
+HTMLMARGINS=TitleFont,1.5,0,0,0,CENTER
 if=[OVERRIDE]<>
 HTMLFONT=TitleFont,"Segoe Print",{OVERRIDE?},BWO,#000000,CENTER,0,0,0,,#000000,0.001
 else
